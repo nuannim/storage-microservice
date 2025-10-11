@@ -28,6 +28,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']  # In production, replace with specific hosts
 
+# Get allowed origins from environment variable, fallback for local development
+CORS_ALLOWED_ORIGINS_STR = os.environ.get(
+    'CORS_ALLOWED_ORIGINS',
+    'http://localhost:8000,http://127.0.0.1:8000'
+)
+CORS_ALLOWED_ORIGINS = CORS_ALLOWED_ORIGINS_STR.split(',')
+
 
 # Application definition
 
