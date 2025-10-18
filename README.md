@@ -1,1 +1,1 @@
-# already merged with [PetGo](https://github.com/nuannim/PetGo)
+# already merged into [PetGo](https://github.com/nuannim/PetGo) repository
