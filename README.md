@@ -1,2 +1,1 @@
-# storage-microservice
-microservice for stargo devtools version
+# already merged with [PetGo]()
